@@ -17,44 +17,18 @@
       onload="this.onload=null;this.rel='stylesheet'"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Code for Food</title>
+    <title>Food Cart</title>
+    <link rel="stylesheet" href="/css/cart.css" />
     <link rel="stylesheet" href="/css/styles.css" />
+    <script type="module" src="/js/cart.js"></script>
   </head>
   <body>
-    <!-- Head and Hero -->
+    <!-- Header  -->
     <load ="partials/header.html" />
-    <load ="partials/hero.html" />
-    <!-- Filter  -->
-    <load ="partials/filters.html" />
-    <!--  Modal -->
-    <load ="partials/modalwindow.html" />
-
-    <section class="section-products">
-      <div class="overlay" id="overlay">
-        <span class="loader"></span>
-      </div>
-      <div class="container prod-container">
-        <div class="products">
-          <!-- Products -->
-          <load ="partials/products.html" />
-          <!--  Pagination -->
-          <load ="partials/pagination.html" />
-        </div>
-        <div class="dopproducts">
-          <div class="popproducts">
-            <!--  Pop -->
-            <load ="partials/popproducts.html" />
-          </div>
-          <div class="discproducts">
-            <!--  Discount -->
-            <load ="partials/discproducts.html" />
-          </div>
-        </div>
-      </div>
-    </section>
-
+    <!-- cart-section -->
+    <load ="partials/cart-section.html" />
+    <load ="partials/succes-modal.html" />
     <!-- Footer -->
     <load ="partials/footer.html" />
-
   </body>
 </html>
